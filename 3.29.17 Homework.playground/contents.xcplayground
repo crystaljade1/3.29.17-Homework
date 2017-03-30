@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='posNeg'/>
+        <page name='icyHot'/>
+        <page name='parrotTrouble'/>
+        <page name='NOT HOMEWORK - scratch'/>
+        <page name='hasTeen'/>
+        <page name='sumDouble'/>
+    </pages>
+</playground>
