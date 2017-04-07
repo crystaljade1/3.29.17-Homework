@@ -3,15 +3,15 @@
 let hour = 0...23
 
 func parrotTrouble(isTalking: Bool, hour: Int) -> Bool {
-    if (isTalking == true) && (hour < 7 ) {
+    if (isTalking == true) && ((hour < 7 ) || (hour > 20)) {
         return true
-    } else if hour > 7 || hour > 20 {
-            return true
-        } else {
-            return false
+    } else {
+        return false
     }
 }
 
 parrotTrouble(isTalking: true, hour: 6) == true
 parrotTrouble(isTalking: true, hour: 7) == false
 parrotTrouble(isTalking: false, hour: 6) == false
+parrotTrouble(isTalking: true, hour: 22) == true
+parrotTrouble(isTalking: false, hour: 22) == false
